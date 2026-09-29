@@ -1,0 +1,8 @@
+body { font-family: sans-serif; background: #0f172a; color: #fff; padding: 2rem; }
+.dashboard { max-width: 800px; margin: 0 auto; }
+.cards { display: flex; gap: 1rem; margin-top: 1rem; }
+.card { background: #1e293b; padding: 1.5rem; border-radius: 8px; flex: 1; }
+.score { font-size: 2.5rem; font-weight: bold; margin: 0.5rem 0; }
+.high-risk .score { color: #ef4444; }
+.low-risk .score { color: #22c55e; }
+.badge { background: #334155; padding: 0.25rem 0.5rem; border-radius: 4px; font-size: 0.8rem; }
